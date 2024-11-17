@@ -1,4 +1,4 @@
-const { Jugador } = require('../baseDatos');
+const { Jugador } = require('../baseDatos/conexion');
 
 const registarJugador = async (req, res) => {
     try {
